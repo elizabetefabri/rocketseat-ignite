@@ -1,0 +1,42 @@
+:root {
+  --white: #ecfeff;
+  --gray-100: #e0f2fe;
+  --gray-300: #7dd3fc;
+  --gray-400: #38bdf8;
+  --gray-600: #0284c7;
+  --gray-700: #0369a1;
+  --gray-800: #075985;
+  --header-800: #0c4a6e;
+  --gray-900: #082f49;
+
+  --green-300: #00B37E;
+  --green-500: #00875f;
+
+  --red-500: #F75A68;
+  --rose-500: #f472b6;
+  --rose-300: #f9a8d4;
+}
+
+:focus {
+  outline: transparent;
+
+  box-shadow: 0 0 0 2px var(--gray-800);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
